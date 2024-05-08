@@ -1,0 +1,33 @@
+body{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    height: 100px;
+    /* width: 400px; */
+    /* box-shadow: 4px 4px grey; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 30px;
+}
+span{
+    color: red;
+}
+button{
+   padding: 10px 20px;
+   border: 1px solid red;
+   color: red;
+   font-size: 20px;
+   margin-top: 10px;
+}
